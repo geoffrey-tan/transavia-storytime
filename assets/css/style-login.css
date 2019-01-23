@@ -1,0 +1,89 @@
+/*
+========================================================
+    Main
+========================================================
+*/
+
+html, body {
+    background-image: url(../image/bg-login.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+main a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+main section h1 {
+    color: #fff;
+    font-size: 2em;
+}
+
+header > section:nth-of-type(2) a, header > section:nth-of-type(3) a {
+    display: none;
+}
+
+main {
+    justify-content: center;
+}
+
+main section {
+    background-color: #2800a0;
+    border-radius: 1.250em;
+    margin-top: 1.625em;
+    margin-bottom: 1.625em;
+    padding: 3.125em;
+    color: #fff;
+}
+
+main input {
+    width: 100%;
+    height: 2.500em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border-radius: 1em;
+    border-style: none;
+}
+
+@media screen and (max-width: 64em) {
+    main > section:nth-of-type(1) {
+         max-width: inherit;
+    }
+}
+
+@media screen and (max-width: 34.375em) {
+
+    main form {
+        justify-content: center;
+    }
+
+    main form input {
+        width: 100%;
+        height: 2.500em;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        border-radius: 1em;
+        border-style: none;
+    }
+
+    main section {
+        background-color: #2800a0;
+        width: 100%;
+        border-radius: 0;
+        margin-top: 0;
+        margin-bottom: 0;
+        padding: 4em;
+        padding-top: 1.625em;
+        color: #fff;
+    }
+
+    main > section:nth-of-type(1) {
+        max-width: 100%;
+    }
+
+    input[type="submit"] {
+        display: inherit;
+    }
+}
