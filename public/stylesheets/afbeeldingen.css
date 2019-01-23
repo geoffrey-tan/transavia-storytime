@@ -6,60 +6,60 @@
 
 /*placeholder*/
 main > section:nth-of-type(2) a {
-    background-image: url(../image/articles/verrassing.jpg);
+    background-image: url(../images/articles/verrassing.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 main > section:nth-of-type(2) > section:nth-of-type(1) {
-    background-image: url(../image/banner.png);
+    background-image: url(../images/banner.png);
 }
 
 main > section:nth-of-type(2) section:nth-of-type(2) {
-    background-image: url(../image/articles/verrassing.jpg);
+    background-image: url(../images/articles/verrassing.jpg);
 }
 
 main > section:nth-of-type(2) section:nth-of-type(3) {
-    background-image: url(../image/articles/beroemd.jpg);
+    background-image: url(../images/articles/beroemd.jpg);
 }
 
 main > section:nth-of-type(2) section:nth-of-type(4) {
-    background-image: url(../image/articles/freudiaans.jpg);
+    background-image: url(../images/articles/freudiaans.jpg);
 }
 
 main > section:nth-of-type(2) section:nth-of-type(5) {
-    background-image: url(../image/articles/steenkolen.jpg);
+    background-image: url(../images/articles/steenkolen.jpg);
 }
 
 main > section:nth-of-type(2) section:nth-of-type(6) {
-    background-image: url(../image/articles/martin.jpg);
+    background-image: url(../images/articles/martin.jpg);
 }
 
 main > section:nth-of-type(2) section:nth-of-type(7) {
-    background-image: url(../image/articles/gebrek.jpg);
+    background-image: url(../images/articles/gebrek.jpg);
 }
 
 main > section:nth-of-type(2) section:nth-of-type(8) {
-    background-image: url(../image/articles/nico.jpg);
+    background-image: url(../images/articles/nico.jpg);
 }
 
 main > section:nth-of-type(2) section:nth-of-type(9) {
-    background-image: url(../image/articles/vergezocht.jpg);
+    background-image: url(../images/articles/vergezocht.jpg);
 }
 
 main > section:nth-of-type(2) section:nth-of-type(10) {
-    background-image: url(../image/articles/zoon.jpg);
+    background-image: url(../images/articles/zoon.jpg);
 }
 
 main > section:nth-of-type(2) section:nth-of-type(11) {
-    background-image: url(../image/articles/telegram.jpg);
+    background-image: url(../images/articles/telegram.jpg);
 }
 
 main > section:nth-of-type(2) section:nth-of-type(12) {
-    background-image: url(../image/articles/zombie.jpg);
+    background-image: url(../images/articles/zombie.jpg);
 }
 
 main > section:nth-of-type(2) section:nth-of-type(13) {
-    background-image: url(../image/articles/jam.jpg);
+    background-image: url(../images/articles/jam.jpg);
 }

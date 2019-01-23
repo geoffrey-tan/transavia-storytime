@@ -4,8 +4,9 @@
 ========================================================
 */
 
-html, body {
-    background-image: url(../image/bg-login.jpg);
+html,
+body {
+    background-image: url(../images/bg-login.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -21,7 +22,8 @@ main section h1 {
     font-size: 2em;
 }
 
-header > section:nth-of-type(2) a, header > section:nth-of-type(3) a {
+header > section:nth-of-type(2) a,
+header > section:nth-of-type(3) a {
     display: none;
 }
 
@@ -31,7 +33,7 @@ main {
 
 main section {
     background-color: #2800a0;
-    border-radius: 1.250em;
+    border-radius: 1.25em;
     margin-top: 1.625em;
     margin-bottom: 1.625em;
     padding: 3.125em;
@@ -40,7 +42,7 @@ main section {
 
 main input {
     width: 100%;
-    height: 2.500em;
+    height: 2.5em;
     margin-top: 1em;
     margin-bottom: 1em;
     border-radius: 1em;
@@ -49,19 +51,18 @@ main input {
 
 @media screen and (max-width: 64em) {
     main > section:nth-of-type(1) {
-         max-width: inherit;
+        max-width: inherit;
     }
 }
 
 @media screen and (max-width: 34.375em) {
-
     main form {
         justify-content: center;
     }
 
     main form input {
         width: 100%;
-        height: 2.500em;
+        height: 2.5em;
         margin-top: 1em;
         margin-bottom: 1em;
         border-radius: 1em;
