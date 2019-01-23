@@ -355,7 +355,6 @@ main {
     MAIN-GRID
 ========================================================
 */
-
 main > section:nth-of-type(2) {
     display: flex;
     flex-wrap: wrap;
@@ -364,7 +363,11 @@ main > section:nth-of-type(2) {
     padding-right: 2.25em;
 }
 
-main > section:nth-of-type(2) section:nth-of-type(1) {
+main > section:nth-of-type(2) a section h1 {
+    font-size: 1em;
+}
+
+main > section:nth-of-type(2) > section:nth-of-type(1) {
     overflow: hidden;
     position: relative;
     display: flex;
@@ -374,10 +377,6 @@ main > section:nth-of-type(2) section:nth-of-type(1) {
     width: 100%;
     margin-bottom: 2.5em;
     z-index: 0;
-}
-
-main > section:nth-of-type(2) section a h1 {
-    font-size: 1em;
 }
 
 main > section:nth-of-type(2) section:nth-of-type(1) article {
@@ -399,7 +398,7 @@ main > section:nth-of-type(2) section:nth-of-type(1) article h1 {
     border-radius: 1em;
 }
 
-main > section:nth-of-type(2) section {
+main > section:nth-of-type(2) a {
     overflow: hidden;
     position: relative;
     display: flex;
@@ -410,7 +409,7 @@ main > section:nth-of-type(2) section {
     margin-bottom: 2.5em;
 }
 
-main > section:nth-of-type(2) section a {
+main > section:nth-of-type(2) a section {
     align-self: flex-end;
     display: flex;
     justify-content: center;
@@ -419,7 +418,7 @@ main > section:nth-of-type(2) section a {
     background-color: #2800a0;
 }
 
-main > section:nth-of-type(2) section a h1 {
+main > section:nth-of-type(2) a section h1 {
     color: #fff;
     align-self: center;
 }

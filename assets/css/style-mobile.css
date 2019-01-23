@@ -1,12 +1,13 @@
 @media screen and (max-width: 34.375em) {
-
-/*
+    /*
 ========================================================
     GENERAL
 ========================================================
 */
 
-    html, body, a {
+    html,
+    body,
+    a {
         color: #fff;
         background-image: none;
     }
@@ -32,9 +33,9 @@
 
     main > section:nth-of-type(2) section:nth-of-type(2) {
         background-image: inherit;
-}
+    }
 
-/*
+    /*
 ========================================================
     HEADER
 ========================================================
@@ -43,7 +44,7 @@
     /*Header scale*/
     header {
         display: flex;
-        height: 3.750em;
+        height: 3.75em;
         -moz-box-shadow: inherit;
         -webkit-box-shadow: inherit;
         box-shadow: inherit;
@@ -53,14 +54,15 @@
     /*Logo*/
     header > section:nth-of-type(1) img {
         height: 2.75em;
-        left: 1.250em;
+        left: 1.25em;
         top: 0.625em;
     }
 
     /*User menu*/
-    header > section:nth-of-type(4) img:nth-of-type(1), header form {
+    header > section:nth-of-type(4) img:nth-of-type(1),
+    header form {
         position: absolute;
-        right: 1.250em;
+        right: 1.25em;
         height: 1.875em;
         bottom: 1em;
     }
@@ -74,7 +76,8 @@
     }
 
     /*Search*/
-    header > section:nth-of-type(4) img:nth-of-type(2), header form {
+    header > section:nth-of-type(4) img:nth-of-type(2),
+    header form {
         position: absolute;
         right: 4.5em;
     }
@@ -83,26 +86,27 @@
     .menu {
         position: absolute;
         z-index: 1;
-        top: 3.750em;
+        top: 3.75em;
         right: -10em;
         background: #00d66c;
         padding: 0.625em;
-        border-radius: 1.250em 0 0 1.250em;
+        border-radius: 1.25em 0 0 1.25em;
         transition: right 0.5s;
     }
 
     .menu-open {
         position: absolute;
         z-index: 1;
-        top: 3.750em;
+        top: 3.75em;
         right: 0;
         background: #00d66c;
         padding: 0.625em;
-        border-radius: 1.250em 0 0 1.250em;
+        border-radius: 1.25em 0 0 1.25em;
         transition: right 1s;
     }
 
-    .menu span, menu-open span {
+    .menu span,
+    menu-open span {
         display: none;
     }
 
@@ -135,7 +139,7 @@
         z-index: 1;
         padding: 1em;
         width: 50%;
-        top: 3.750em;
+        top: 3.75em;
         left: 0;
         bottom: inherit;
         text-align: center;
@@ -148,7 +152,7 @@
         z-index: 1;
         padding: 1em;
         width: 50%;
-        top: 3.750em;
+        top: 3.75em;
         right: 0;
         bottom: inherit;
         left: inherit;
@@ -156,7 +160,7 @@
         background-color: #2800a0;
     }
 
-/*
+    /*
 ========================================================
     BREADCRUMB
 ========================================================
@@ -166,7 +170,7 @@
         display: none;
     }
 
-/*
+    /*
 ========================================================
     CATEGORY
 ========================================================
@@ -182,7 +186,7 @@
         margin-left: inherit;
         background: #00d66c;
         padding: 0.625em;
-        border-radius: 0 1.250em 1.250em 0;
+        border-radius: 0 1.25em 1.25em 0;
         transition: left 0.5s;
     }
 
@@ -194,7 +198,7 @@
         width: 50%;
         background: #00d66c;
         padding: 0.625em;
-        border-radius: 0 1.250em 1.250em 0;
+        border-radius: 0 1.25em 1.25em 0;
         -moz-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
         -webkit-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
         box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
@@ -209,7 +213,9 @@
         font-size: 1em;
     }
 
-    .category-button, .menu-button, .search-button {
+    .category-button,
+    .menu-button,
+    .search-button {
         display: inherit;
     }
 
@@ -227,7 +233,7 @@
         box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
     }
 
-/*
+    /*
 ========================================================
     MAIN-GRID
 ========================================================
@@ -239,11 +245,11 @@
         width: 100%;
     }
 
-    main > section:nth-of-type(2) section:nth-of-type(1) {
+    main > section:nth-of-type(2) > section:nth-of-type(1) {
         display: none;
     }
 
-    main > section:nth-of-type(2) section {
+    main > section:nth-of-type(2) a {
         height: 100vw;
         width: 100%;
         margin-left: 0;
@@ -251,15 +257,15 @@
         margin-bottom: 0.75em;
     }
 
-    main > section:nth-of-type(2) section a {
+    main > section:nth-of-type(2) a section {
         height: 3.125em;
     }
 
-    main > section:nth-of-type(2) section a h1 {
+    main > section:nth-of-type(2) a section h1 {
         font-size: 1em;
     }
 
-/*
+    /*
 ========================================================
     FOOTER
 ========================================================
