@@ -1,4 +1,5 @@
 var data = [];
+var favorites = [];
 var titles = [
     "Klumperbeven",
     "Zombie",
@@ -9,10 +10,11 @@ var titles = [
     "Het Gebrek",
     "Martin Bril",
     "Steenkolenfrans",
-    "Freudiaans",
-    "Beroemd",
-    "Verrassing"
+    "Neerslachtig",
+    "Paranoia",
+    "Verrast"
 ];
+var titlesFavorites = ["Neerslachtig", "Paranoia", "Verrast"];
 
 function createTitle(title, genre, auteur, niveau, url) {
     var object = {
@@ -27,6 +29,23 @@ function createTitle(title, genre, auteur, niveau, url) {
     return;
 }
 
+function createTitleFavorites(title, genre, auteur, niveau, url) {
+    var object = {
+        title: title,
+        genre: genre,
+        auteur: auteur,
+        niveau: niveau,
+        url: url
+    };
+
+    favorites.push(object);
+    return;
+}
+
 for (var i = 0; i < titles.length; i++) {
     createTitle(titles[i]);
+}
+
+for (var j = 0; j < titlesFavorites.length; j++) {
+    createTitleFavorites(titlesFavorites[j]);
 }

@@ -6,25 +6,25 @@
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="shortcut icon" href="favicon.ico" />
         <link rel="stylesheet" href="public/stylesheets/style.css" />
+        <link rel="stylesheet" href="public/stylesheets/partials.css" />
         <link rel="stylesheet" href="public/stylesheets/style-tablet.css" />
         <link rel="stylesheet" href="public/stylesheets/style-mobile.css" />
         <link rel="stylesheet" href="public/stylesheets/style-login.css" />
-        <link rel="stylesheet" href="public/stylesheets/afbeeldingen.css" />
     </head>
 
     <body>
         <!--header-->
         <header>
             <section>
-                <a href="index.html"> <img src="public/images/logo.svg" alt="logo" /> </a>
+                <a href="overzicht.html"> <img src="public/images/logo.svg" alt="logo" /> </a>
             </section>
 
             <section>
-                <a href="index.html"><h1>Meest Recent</h1></a>
+                <a href="overzicht.html"><h1>Meest Recent</h1></a>
             </section>
 
             <section>
-                <a href="index.html"><h1>Meest Besproken</h1></a>
+                <a href="overzicht.html"><h1>Meest Besproken</h1></a>
             </section>
 
             <section>
@@ -32,14 +32,14 @@
 
                 <nav class="menu">
                     <ul>
-                        <li><a href="aanmelden.html">Registreren</a> <span>|</span></li>
+                        <li><a href="registreren.html">Registreren</a> <span>|</span></li>
                         <li><a href="aanmelden.html">Aanmelden</a></li>
                     </ul>
                 </nav>
 
                 <img class="search-button" src="public/icons/search.svg" alt="" />
 
-                <form class="search">
+                <form action="overzicht.html" class="search">
                     <fieldset>
                         <legend>Zoeken</legend>
                         <input type="search" placeholder="Zoek een verhaal" name="zoeken" />
@@ -51,23 +51,20 @@
 
         <main>
             <section>
-                <h1>Nieuw account</h1>
+                <h1>Welkom terug!</h1>
                 <br />
-                <form>
-                    Voornaam* <input type="text" name="voornaam" required /> <br />
-                    Tussenvoegsel <input type="text" name="tussenvoegsel" /> <br />
-                    Achternaam* <input type="text" name="achternaam" required /> <br />
-                    E-mailadres* <input type="email" name="email" required /> <br />
-                    Straat <input type="text" name="straat" /> <br />
-                    Postcode <input type="text" pattern="[1-9][0-9]{3}\s?[a-zA-Z]{2}" name="postcode" /> <br />
-                    Huisnummer <input type="text" name="huisnummer" /> <br />
-                    Telefoonnummer <input type="text" name="telefoonnummer" /> <br />
-                    Wachtwoord** <input type="password" pattern="[0-9a-zA-Z]{5,18}" name="wachtwoord" required /> <br />
-                    *verplicht <br />
-                    **wachtwoord lengte tussen de 5-18 karakters <br />
-                    <input type="submit" value="Registreren" />
+                <form action="overzicht.html?login=true">
+                    E-mailadres <input type="email" name="email" value="johndoe@email.com" required /> <br />
+                    Wachtwoord
+                    <input type="password" pattern="[0-9a-zA-Z]{5,18}" name="wachtwoord" value="12345" required />
+                    <br />
+                    <input class="hidden" type="text" name="login" value="true" /> <br />
+                    <input type="submit" value="Inloggen" />
                 </form>
-                <a href="index.html"> &lt; Terug naar overzicht</a>
+                <div>
+                    <a href="registreren.html"> &lt; Geen account?</a>
+                    <a href="overzicht.html"> &lt; Terug naar overzicht</a>
+                </div>
             </section>
         </main>
 
