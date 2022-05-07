@@ -1,0 +1,193 @@
+body {
+  background-image: unset;
+  background-color: #fff;
+}
+
+body > section:nth-of-type(1) {
+  background-color: #fff;
+  padding-left: 2.25em;
+}
+
+body > section:nth-of-type(1) nav {
+  align-self: unset;
+  width: unset;
+  padding-left: unset;
+}
+
+h3 {
+  padding: 1em;
+}
+
+section {
+  background-color: #f3e5d8;
+}
+
+body > section nav ul {
+  display: flex;
+}
+
+article section:nth-last-child(1) {
+  padding: 2.25em;
+}
+
+.content-verrast {
+  background-image: url("../images/articles/verrast/verrast-desktop.png");
+  background-size: contain;
+  height: 60vw;
+  width: 100%;
+  background-repeat: no-repeat;
+}
+
+.content-paranoia {
+  background-image: url("../images/articles/paranoia/paranoia-desktop.png");
+  background-size: contain;
+  height: 60vw;
+  width: 100%;
+  background-repeat: no-repeat;
+}
+
+.content-neerslachtig {
+  background-image: url("../images/articles/neerslachtig/neerslachtig-desktop.png");
+  background-size: contain;
+  height: 60vw;
+  width: 100%;
+  background-repeat: no-repeat;
+}
+
+aside {
+  display: flex;
+  position: absolute;
+  right: 1em;
+  top: 130px;
+  z-index: 1;
+}
+
+aside div {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  cursor: pointer;
+}
+
+aside img {
+  width: 1.5em;
+}
+
+textarea[type="comment"] {
+  resize: none;
+  line-height: 20px;
+  width: 30vw;
+  padding: 16px;
+  border-radius: 1em;
+  border-style: none;
+  -moz-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+input[name="submit-comment"] {
+  display: block;
+  width: 30vw;
+  line-height: 20px;
+  background-color: #00d66c;
+  color: #fff;
+  border-radius: 1em;
+  border-style: none;
+  text-align: center;
+  -webkit-appearance: none;
+}
+
+footer {
+  background-color: #f3e5d8;
+  padding: 2.25em;
+}
+
+#comments article {
+  padding: 2em 0 2em 0;
+}
+
+@media screen and (max-width: 64em) {
+  .content-verrast {
+    background-image: url("../images/articles/verrast/verrast-tablet.png");
+    height: 140vw;
+  }
+
+  .content-paranoia {
+    background-image: url("../images/articles/paranoia/paranoia-tablet.png");
+    height: 140vw;
+  }
+
+  .content-neerslachtig {
+    background-image: url("../images/articles/neerslachtig/neerslachtig-tablet.png");
+    height: 140vw;
+  }
+
+  aside {
+    right: unset;
+    position: fixed;
+    bottom: 0;
+    top: unset;
+    z-index: 1;
+    width: 100%;
+    height: fit-content;
+    align-items: flex-end;
+  }
+
+  aside div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  aside a {
+    background-color: #fff;
+    flex-basis: 0;
+    flex-grow: 1;
+  }
+
+  aside h3 {
+    color: #2800a0;
+  }
+
+  footer {
+    background-color: #f3e5d8;
+    padding: 2.25em 2.25em 4em 2.25em;
+  }
+
+  textarea[type="comment"] {
+    width: 100%;
+  }
+
+  input[name="submit-comment"] {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 34.375em) {
+  .content-verrast {
+    background-image: url("../images/articles/verrast/verrast-mobiel.png");
+    height: 180vw;
+  }
+
+  .content-paranoia {
+    background-image: url("../images/articles/paranoia/paranoia-mobiel.png");
+    height: 180vw;
+  }
+
+  .content-neerslachtig {
+    background-image: url("../images/articles/neerslachtig/neerslachtig-mobiel.png");
+    height: 180vw;
+  }
+
+  article section:nth-last-child(1) {
+    padding: unset;
+  }
+
+  article p {
+    color: #606060;
+  }
+
+  #comments {
+    padding-bottom: 4em;
+  }
+}

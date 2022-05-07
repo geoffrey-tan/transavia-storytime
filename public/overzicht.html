@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="nl">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Transavia Storytime - Overzicht</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex, nofollow" />
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="stylesheet" href="assets/stylesheets/style.css" />
+    <link rel="stylesheet" href="assets/stylesheets/partials.css" />
+    <link rel="stylesheet" href="assets/stylesheets/style-overzicht.css" />
+    <link rel="stylesheet" href="assets/stylesheets/style-tablet.css" />
+    <link rel="stylesheet" href="assets/stylesheets/style-mobile.css" />
+    <link rel="stylesheet" href="assets/stylesheets/afbeeldingen.css" />
+    <script src="https://cdn.geoffreytan.dev/lib/message/message.min.js"></script>
+  </head>
+
+  <body>
+    <!--header-->
+    <header>
+      <section>
+        <a href="overzicht.html">
+          <img src="assets/images/logo.svg" alt="logo" />
+        </a>
+      </section>
+
+      <section>
+        <a href="overzicht.html"><h1>Meest Recent</h1></a>
+      </section>
+
+      <section>
+        <a href="overzicht.html"><h1>Meest Besproken</h1></a>
+      </section>
+
+      <section>
+        <img class="menu-button" src="assets/icons/user.svg" alt="" />
+
+        <nav class="menu">
+          <ul>
+            <li><a href="registreren.html">Registreren</a> <span>|</span></li>
+            <li><a href="aanmelden.html">Aanmelden</a></li>
+          </ul>
+        </nav>
+
+        <img class="search-button" src="assets/icons/search.svg" alt="" />
+
+        <form action="overzicht.html" class="search">
+          <fieldset>
+            <legend>Zoeken</legend>
+            <input type="search" placeholder="Zoek een verhaal" name="zoeken" />
+            <input type="submit" value="Zoek" />
+          </fieldset>
+        </form>
+      </section>
+    </header>
+
+    <!--breadcrumb-->
+    <section>
+      <nav>
+        <ul>
+          <a href="index.html"><li>Home >&nbsp;</li></a>
+          <li>Overzicht</li>
+        </ul>
+      </nav>
+
+      <section>
+        <select>
+          <option>Aflopend</option>
+          <option>Oplopend</option>
+        </select>
+      </section>
+    </section>
+
+    <!--main-->
+    <main>
+      <img class="category-button" src="assets/icons/filter.svg" alt="" />
+
+      <section class="category">
+        <h1>Categorieën</h1>
+        <h2>Genre</h2>
+        <form action="overzicht.html">
+          <input type="checkbox" name="opinie" value="opinie" /> Opinie <br />
+          <input type="checkbox" name="fictie" value="fictie" /> Fictie <br />
+          <input type="checkbox" name="nfictie" value="nfictie" /> Non-fictie
+          <br />
+          <input
+            type="checkbox"
+            name="correspondentie"
+            value="correspondentie"
+          />
+          Correspondentie <br />
+          <input type="checkbox" name="interview" value="interview" /> Interview
+          <br />
+          <input type="checkbox" name="kortnurks" value="kortnurks" /> Kort
+          nurks <br />
+          <input type="checkbox" name="cartoons" value="cartoons" /> Cartoons
+          <br />
+          <br />
+          <h2>Auteur</h2>
+          <input type="checkbox" name="interview" value="interview" /> Interview
+          <br />
+          <input type="checkbox" name="kortnurks" value="kortnurks" /> Kort
+          nurks <br />
+          <input type="checkbox" name="cartoons" value="cartoons" /> Cartoons
+          <br />
+          <br />
+          <h2>Niveau</h2>
+          <input type="checkbox" name="interview" value="interview" />
+          Kinderverhaal <br />
+          <input type="checkbox" name="kortnurks" value="kortnurks" /> Informeel
+          <br />
+          <input type="checkbox" name="cartoons" value="cartoons" /> Academisch
+          <br />
+          <br />
+          <input type="submit" value="Filter" />
+        </form>
+      </section>
+
+      <section id="grid">
+        <section>
+          <article>
+            <h1>Transavia Storytime</h1>
+            <p>Voor thuis, op reis of zelfs tijdens werk</p>
+          </article>
+
+          <video autoplay loop muted preload="auto">
+            <source src="assets/videos/beach-720p.mp4" type="video/mp4" />
+            <source src="assets/videos/beach-720p.webm" type="video/webm" />
+            Your browser does not support the video tag.
+          </video>
+        </section>
+      </section>
+    </main>
+
+    <!--footer-->
+    <footer>
+      <nav>
+        <ul>
+          <li>1 <span>.</span></li>
+          <li><a href="overzicht.html">2 .</a></li>
+          <li><a href="overzicht.html"> 3</a></li>
+        </ul>
+      </nav>
+    </footer>
+
+    <script
+      src="assets/scripts/jquery-3.3.1.min.js"
+      type="text/javascript"
+    ></script>
+    <script src="assets/scripts/params.js" type="text/javascript"></script>
+    <script src="assets/scripts/data.js" type="text/javascript"></script>
+    <script src="assets/scripts/grid.js" type="text/javascript"></script>
+    <script
+      src="assets/scripts/class-toggle.js"
+      type="text/javascript"
+    ></script>
+  </body>
+</html>

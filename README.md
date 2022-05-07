@@ -1,1 +1,1 @@
-html-4.0
+https://cloud.google.com/storage/docs/hosting-static-website
